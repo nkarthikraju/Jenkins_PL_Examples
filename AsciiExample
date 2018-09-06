@@ -2,7 +2,7 @@ pipeline{
 agent any
 stages{
 stage("AsciiExamples"){
+ steps{
  ansiColor('xterm') {
-steps{
 echo "AsciiExamples"
 }}}}}
