@@ -1,11 +1,10 @@
 pipeline{
 agent any
 stages{
-stage('testFromGIT'){
+stage(ScenariosFromGIT){
 steps{
-echo "hello world"
+echo "helloworld"
 }
 }
 }
 }
-
