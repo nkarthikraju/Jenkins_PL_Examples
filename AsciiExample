@@ -5,4 +5,4 @@ stage("AsciiExamples"){
  ansiColor('xterm') {
 steps{
 echo "AsciiExamples"
-}}}}
+}}}}}
