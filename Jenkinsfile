@@ -1,7 +1,7 @@
 pipeline{
 agent any
 environment{
-n = 'my-tag'
+n = 'master'
 }
 stages{
 stage("ScenariosFromGIT"){
