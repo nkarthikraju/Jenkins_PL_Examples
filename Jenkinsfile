@@ -1,6 +1,8 @@
 pipeline{
 agent any
-def n = 'my-tag'
+environment{
+n = 'my-tag'
+}
 stages{
 stage("ScenariosFromGIT"){
 steps{
