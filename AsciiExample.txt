@@ -4,4 +4,7 @@ stages{
 stage("AsciiExamples"){
 steps{
 echo "AsciiExamples"
-}}}}
+}
+}
+}
+}
