@@ -6,7 +6,7 @@ pipeline{
 	stages{
 		stage("ScenariosFromGIT"){
 			steps{
-				echo "\n Only in Dev branch hello world $Tool\n\n\n\n\n"
+				echo "\n hello world $Tool\n\n\n\n\n"
 			}
 		}
 	}
