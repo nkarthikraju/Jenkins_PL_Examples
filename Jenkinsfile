@@ -6,7 +6,7 @@ pipeline{
 	stages{
 		stage("ScenariosFromGIT"){
 			steps{
-				echo "\n changes hello world $Tool\n\n\n\n\n"
+				echo "\n hello world $Tool\n\n\n\n\n"
 			}
 		}
 	}
